@@ -1,0 +1,62 @@
+/**
+*   生成日期 2017-01-18
+*   弹出框css
+*   最后修改日期 2017-01-18
+**/
+@charset "utf-8";
+div,label,input,button{
+    box-sizing: border-box;
+}
+
+.box a{
+    display: block;
+    width: 100%;
+    height: 50px;
+    font: 28px/50px "微软雅黑";
+    text-align: center;
+    color: #0cd9f4;
+    margin-bottom: 20px;
+}
+/*.textCon a {
+    display: block;
+    width: 100%;
+    height: 50px;
+    font: 32px/50px "微软雅黑";
+    text-align: center;
+    color: #0cd9f4;
+}*/
+.textCon p {
+    font: 18px/200% "宋体";
+    text-align: left;
+    text-indent:2em;
+    padding-bottom: 30px;
+}
+.formCon div{
+    position: relative;
+    margin-top: 30px;
+    text-align: right;
+}
+.formCon p{
+    position: absolute;
+    width: 100%;
+    top: -35px;
+    left: 0;
+    font: 14px/16px "宋体";
+    color: #f00;
+    text-align: left;
+    text-indent: 60px;
+}
+#popbBox {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: 1s ease-out;
+  opacity: 0;
+  z-index: -10;
+}
+.imgage img{
+    width: 400px;
+    margin-bottom: 30px;
+}

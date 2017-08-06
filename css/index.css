@@ -1,0 +1,126 @@
+@charset "utf-8";
+html,body,main,header,footer,nav,div,label,input{
+    box-sizing: border-box;
+}
+html,body,main,header,footer,nav {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+main {
+    height: 100%;
+    transition: 1.5s;
+}
+main.bg-1{
+    background: url(../img/1.jpg) center no-repeat;
+}
+main.bg-2 {
+    background:url(../img/2.jpg) center no-repeat;
+}
+
+
+header {
+  text-align: center;
+  padding-top: 50px;
+}
+button {
+  width: 120px;
+  height: 40px;
+  background-color: #0973b5;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 18px;
+  font-family: "微软雅黑";
+    border-radius: 5px;
+}
+main button{
+    opacity: 0.5;
+}
+button:hover {
+  background-color: #75bfed;
+    opacity: 1;
+}
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    background-color: #fff;
+    position: relative;
+    padding-top: 10px;
+}
+.box > div {
+  margin: 5% auto;
+  width: 80%;
+}
+.box p {
+  text-align: center;
+  font-size: 24px;
+  color: #666;
+}
+.blocknone {
+  opacity: 1 !important;
+  z-index: 999 !important;
+}
+i#del {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-color: #eee;
+  font-family: "微软雅黑";
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: url(../img/del.png) no-repeat;
+  background-position: left;
+  cursor: pointer;
+}
+.blur {
+  filter: blur(10px);
+}
+#del:hover {
+  background-position: right;
+}
+
+.firmCon div:nth-child(2){
+    text-align: center;
+    padding-bottom: 30px;
+}
+.firmCon div:nth-child(2) button{
+    margin: 0 10px;
+}
+.formCon div{
+    width: 300px;
+    text-align: center;
+    margin: 20px auto;
+}
+.formCon div label{
+    display: inline-block;
+    height: 30px;
+    width: 60px;
+    text-align: left;
+    line-height: 30px;
+    font-family: "微软雅黑";
+    font-size: 16px;
+}
+.formCon div input{
+    width: 240px;
+    height: 30px;
+    border: 1px #666 solid;
+}
+.formCon div:nth-child(3) {
+    text-align: right;
+}
+.formCon div button {
+    width: 100px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
